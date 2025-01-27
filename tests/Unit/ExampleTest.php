@@ -21,5 +21,6 @@ class ExampleTest extends TestCase
         $result = $controller->showHello();
         
         $this->assertEquals('hello', $result);
+        $this->assertEquals('hola', $result);
     }
 }
